@@ -18,19 +18,7 @@ const logIn = () => {
         <q-toolbar-title class="text-h5">
           OMF Viewer App
         </q-toolbar-title>
-
-        <div class="login">
-          <q-avatar class="bg-positive text-dark">
-            ?
-          </q-avatar>
-          <q-btn
-            round
-            flat
-            icon="login"
-            aria-label="Menu"
-            @click="logIn"
-          />
-        </div>
+          <q-icon class="icon-btn q-px-md" name="login" size="md" @click="logIn"></q-icon>
       </q-toolbar>
     </q-header>
     <div class="bg-positive window-height text-dark">

@@ -21,10 +21,18 @@ a {
 }
 a:hover {
   all: unset;
-  color: #9DA5AA;
+  color: #FFFFFF;
   cursor: pointer;
 }
 .router-link-active {
   color: #FFFFFF;
-  }
+  border-bottom: 2px solid #FFFFFF;
+}
+.icon-btn {
+  color: #9DA5AA;
+}
+.icon-btn:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
 </style>

@@ -1,18 +1,23 @@
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: () => import('pages/HomePage.vue'),
   },
   {
     path: '/about',
-    name: 'About',
+    name: 'about',
     component: () => import('pages/AboutPage.vue'),
   },
   {
     path: '/projects',
-    name: 'Projects',
+    name: 'projects',
     component: () => import('pages/ProjectsPage.vue'),
+  },
+  {
+    path: '/projects/:id/:slug',
+    name: 'projects.show',
+    component: () => import('pages/ProjectInfo.vue'),
   },
   {
     path: '/:catchAll(.*)*',

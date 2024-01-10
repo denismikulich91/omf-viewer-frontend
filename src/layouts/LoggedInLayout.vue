@@ -31,19 +31,12 @@ const logOut = () => {
         <q-toolbar-title class="text-h5">
           OMF Viewer App
         </q-toolbar-title>
+        <q-space />
+        <q-avatar>
+          <img src="../../avatar/photo.jpg">
+        </q-avatar>
+        <q-icon class="icon-btn q-px-md" name="logout" size="md" @click="logOut"></q-icon>
 
-        <div class="login">
-          <q-avatar>
-            <img src="../../avatar/photo.jpg">
-          </q-avatar>
-          <q-btn
-            round
-            flat
-            icon="logout"
-            aria-label="Menu"
-            @click="logOut"
-          />
-        </div>
       </q-toolbar>
     </q-header>
 
